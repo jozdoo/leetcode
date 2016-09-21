@@ -26,7 +26,7 @@ public class CountingBits338 {
         int[] list = new int[num+1];
         boolean isEven =true;
         for(int i=0;i<=num;i++){
-            int j = list[i>>1]+;
+            int j = list[i>>1];
             list[i]=isEven?j:j+1;
             isEven=!isEven;
         }
