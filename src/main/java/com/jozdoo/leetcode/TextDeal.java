@@ -25,7 +25,7 @@ import java.util.List;
 public class TextDeal {
     public static void main(String[] args) throws IOException {
         DateTime dateTime =new DateTime();
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/jozdoo/Desktop/onlytext.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("//Users/jozdoo/Documents/dailyData/2017-04-20 7000单词本/onlytext.txt"));
         String line = null;
         List<String> list = new ArrayList<>();
         while ((line = bufferedReader.readLine()) != null) {
